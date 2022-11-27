@@ -152,7 +152,9 @@ span.arabic-lang {
   margin-left: -11px;
 }
 footer.footer-Section {
-  margin-top: 15rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 p.palestine {
   font-size: 14px;
