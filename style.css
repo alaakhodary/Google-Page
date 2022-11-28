@@ -115,7 +115,7 @@ span.arabic-lang {
   padding: 0;
   pointer-events: auto;
   position: absolute;
-  left: 31.6rem;
+  left: 33%;
   width: 26px;
   z-index: 100;
 }
@@ -130,7 +130,7 @@ span.arabic-lang {
   padding: 0;
   pointer-events: auto;
   position: absolute;
-  right: 31.6rem;
+  right: 33%;
   width: 30px;
   z-index: 100;
 }
@@ -152,9 +152,10 @@ span.arabic-lang {
   margin-left: -11px;
 }
 footer.footer-Section {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 150;
 }
 p.palestine {
   font-size: 14px;
